@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="darkMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Gem shape -->
+  <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" fill="url(#darkMetal)" stroke="#38BDF8" stroke-width="2.5" stroke-opacity="0.4"/>
+  <!-- Stylized Geometric X -->
+  <path d="M28 28 L44 50 L28 72 H38 L48 57 L58 72 H68 L52 50 L68 28 H58 L48 43 L38 28 Z" fill="url(#skyGrad)" />
+  <!-- Glowing central node -->
+  <circle cx="50" cy="50" r="3" fill="#FFFFFF" filter="drop-shadow(0 0 4px #38BDF8)"/>
+  <!-- Precision corner accents -->
+  <circle cx="50" cy="12" r="1.5" fill="#38BDF8" />
+  <circle cx="84" cy="30" r="1.5" fill="#38BDF8" />
+  <circle cx="84" cy="70" r="1.5" fill="#38BDF8" />
+  <circle cx="50" cy="88" r="1.5" fill="#38BDF8" />
+  <circle cx="16" cy="70" r="1.5" fill="#38BDF8" />
+  <circle cx="16" cy="30" r="1.5" fill="#38BDF8" />
+</svg>
